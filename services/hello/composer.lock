@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c555294c99911199491d9fdbb060d9d",
+    "content-hash": "1167524ead271b121e6078cd3d7b5428",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -493,11 +493,17 @@
         },
         {
             "name": "restolia/framework",
-            "version": "dev-master",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/restolia/framework.git",
+                "reference": "8a2d84568c7f6725113b4dc5c0f70a59906db34a"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../../restolio",
-                "reference": "dcf1e077cd3605d88bc33e0024382c9679696ce6"
+                "type": "zip",
+                "url": "https://api.github.com/repos/restolia/framework/zipball/8a2d84568c7f6725113b4dc5c0f70a59906db34a",
+                "reference": "8a2d84568c7f6725113b4dc5c0f70a59906db34a",
+                "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^2.3",
@@ -514,30 +520,15 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Restolia\\": "src/Restolio"
+                    "Restolia\\": "src/Restolia"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "tests/"
-                }
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/restolia/framework/issues",
+                "source": "https://github.com/restolia/framework/tree/1.0.2"
             },
-            "scripts": {
-                "analsys": [
-                    "./vendor/bin/phpstan analyse --level 8 src tests"
-                ],
-                "tests": [
-                    "./vendor/bin/phpunit --testdox"
-                ],
-                "all": [
-                    "@analsys",
-                    "@tests"
-                ]
-            },
-            "transport-options": {
-                "symlink": false,
-                "relative": true
-            }
+            "time": "2021-10-30T13:54:58+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
