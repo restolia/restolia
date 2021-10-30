@@ -1,0 +1,14 @@
+{
+  "name": "restolia/restolia",
+  "require": {
+    "php": "^8.0",
+    "restolia/framework": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hello\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
