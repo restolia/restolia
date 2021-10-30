@@ -1,0 +1,17 @@
+{
+  "name": "restolia/restolia",
+  "authors": [
+    {
+      "name": "Ben Osborne",
+      "email": "hello@benosborne.io"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^8.0",
+    "restolia/framework": "^1.0"
+  },
+  "prefer-stable": true
+}
