@@ -57,14 +57,6 @@ class Service extends \Restolia\Service\Service
         $router->get('/', [$this, 'handle']);
     }
 
-    /**
-     * The default method that will be called for an
-     * HTTP response if no routes are defined.
-     *
-     * @param  Request   $request
-     * @param  Response  $response
-     * @throws JsonException
-     */
     public function handle(Request $request, Response $response): void
     {
         $this->logger->debug('hello service handling request...');
