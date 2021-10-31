@@ -4,7 +4,6 @@ namespace Hello;
 
 use FastRoute\RouteCollector;
 use Hello\Providers\LoggerProvider;
-use JsonException;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Restolia\Http\Response;
