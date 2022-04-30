@@ -1,14 +1,19 @@
 # Restolia
-An application for building micro-services in PHP ^8.
+An application for building fast, natural APIs in PHP.
 
-# Install
+# Getting Started
+
+## Install
 
 ```
 composer create-project restolia/restolia my-app
 ```
 
-# Services
-Each service lives in the services/ directory and each one has their own composer.json file, you will need to run *composer install* inside the services/hello directory.
+## Serve
+
+```
+php -S localhost:8000
+```
 
 # Documentation
 View the docs on [GitBook](https://benosborne.gitbook.io/restolia/).

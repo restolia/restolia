@@ -1,6 +1,6 @@
 <?php
 
-namespace Hello\Providers;
+namespace App\Providers;
 
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Logger;
