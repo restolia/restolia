@@ -5,7 +5,7 @@ namespace App\Providers;
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
-use Restolia\Service\Provider;
+use Restolia\Foundation\Provider;
 
 class LoggerProvider extends Provider
 {

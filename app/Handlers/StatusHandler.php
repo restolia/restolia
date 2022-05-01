@@ -18,8 +18,8 @@ class StatusHandler
 
         $response->json(
             [
-                'took' => (microtime(true) - APP_START) * 1000,
-                'memory' => memory_get_peak_usage()
+                'took' => sprintf("%.2fms", (microtime(true) - APP_START) * 1000),
+                'memory' => memory_get_peak_usage(),
             ],
         );
         $response->send();

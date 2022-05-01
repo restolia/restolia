@@ -1,5 +1,5 @@
 # Restolia
-An application for building fast, natural APIs in PHP.
+An application for building fast and powerful APIs in PHP.
 
 # Getting Started
 
@@ -14,6 +14,8 @@ composer create-project restolia/restolia my-app
 ```
 php -S localhost:8000
 ```
+
+Visit [http://localhost:8000/](http://localhost:8000/) to see an example JSON response.
 
 # Documentation
 View the docs on [GitBook](https://benosborne.gitbook.io/restolia/).

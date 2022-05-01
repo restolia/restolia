@@ -5,9 +5,9 @@ namespace App;
 use App\Handlers\StatusHandler;
 use App\Providers\LoggerProvider;
 use FastRoute\RouteCollector;
-use Restolia\Service\Service;
+use Restolia\Foundation\Application;
 
-class App extends Service
+class App extends Application
 {
     public static function providers(): array
     {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28b873c48defce6c2bb819a89906beab",
+    "content-hash": "b80464090c4f22a07da6ed497d7583d7",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -620,31 +620,32 @@
         },
         {
             "name": "restolia/framework",
-            "version": "1.0.4",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/restolia/framework.git",
-                "reference": "718b8ba90d658ab31f622f6d2db4390d0a3cdddf"
+                "reference": "ebb8710bee2de2bdea83dfa7343ead8688b03d2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restolia/framework/zipball/718b8ba90d658ab31f622f6d2db4390d0a3cdddf",
-                "reference": "718b8ba90d658ab31f622f6d2db4390d0a3cdddf",
+                "url": "https://api.github.com/repos/restolia/framework/zipball/ebb8710bee2de2bdea83dfa7343ead8688b03d2f",
+                "reference": "ebb8710bee2de2bdea83dfa7343ead8688b03d2f",
                 "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^2.3",
                 "nikic/fast-route": "^1.3",
-                "php": "^8.0",
-                "php-di/php-di": "^6.3",
+                "php": "^8.1",
+                "php-di/php-di": "^6.0",
                 "psr/log": "^3.0",
-                "symfony/http-foundation": "^5.3",
-                "vlucas/phpdotenv": "^5.3"
+                "symfony/http-foundation": "^6.0",
+                "vlucas/phpdotenv": "^5.4"
             },
             "require-dev": {
                 "phpstan/phpstan": "^0.12.99",
                 "phpunit/phpunit": "^9.5"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -658,15 +659,15 @@
             "authors": [
                 {
                     "name": "Ben Osborne",
-                    "email": "hello@benosborne.io"
+                    "email": "mr.ben.osborne@gmail.com"
                 }
             ],
-            "description": "Welcome to Restolia, a PHP 8 framework for building a micro-services application.",
+            "description": "Welcome to Restolia, a PHP Framework for building fast and powerful APIs.",
             "support": {
                 "issues": "https://github.com/restolia/framework/issues",
-                "source": "https://github.com/restolia/framework/tree/1.0.4"
+                "source": "https://github.com/restolia/framework/tree/main"
             },
-            "time": "2021-11-01T19:52:25+00:00"
+            "time": "2022-04-30T07:45:23+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -737,29 +738,28 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.8",
+            "version": "v6.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "ff2818d1c3d49860bcae1f2cbb5eb00fcd3bf9e2"
+                "reference": "c9c86b02d7ef6f44f3154acc7de42831518afe7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ff2818d1c3d49860bcae1f2cbb5eb00fcd3bf9e2",
-                "reference": "ff2818d1c3d49860bcae1f2cbb5eb00fcd3bf9e2",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/c9c86b02d7ef6f44f3154acc7de42831518afe7c",
+                "reference": "c9c86b02d7ef6f44f3154acc7de42831518afe7c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=8.0.2",
                 "symfony/deprecation-contracts": "^2.1|^3",
-                "symfony/polyfill-mbstring": "~1.1",
-                "symfony/polyfill-php80": "^1.16"
+                "symfony/polyfill-mbstring": "~1.1"
             },
             "require-dev": {
                 "predis/predis": "~1.0",
-                "symfony/cache": "^4.4|^5.0|^6.0",
-                "symfony/expression-language": "^4.4|^5.0|^6.0",
-                "symfony/mime": "^4.4|^5.0|^6.0"
+                "symfony/cache": "^5.4|^6.0",
+                "symfony/expression-language": "^5.4|^6.0",
+                "symfony/mime": "^5.4|^6.0"
             },
             "suggest": {
                 "symfony/mime": "To use the file extension guesser"
@@ -790,7 +790,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.8"
+                "source": "https://github.com/symfony/http-foundation/tree/v6.0.8"
             },
             "funding": [
                 {
@@ -806,7 +806,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-22T08:14:12+00:00"
+            "time": "2022-04-22T08:18:02+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1140,11 +1140,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "restolia/framework": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0"
+        "php": "^8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
