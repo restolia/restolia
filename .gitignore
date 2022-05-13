@@ -1,5 +1,10 @@
 # IDEs
 .idea/
 
-# services
 vendor/
+
+# testing frameworks
+.phpunit.result.cache
+
+# application
+.env
