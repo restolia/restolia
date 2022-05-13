@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e865f45b76feb0e1d52f1884d839006",
+    "content-hash": "3d02c3aa7b22f273e95d042b766e4b18",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -625,16 +625,16 @@
         },
         {
             "name": "restolia/framework",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/restolia/framework.git",
-                "reference": "67553a79e3ea6f2070eb4bfaa1b44366257b1b93"
+                "reference": "682b5dc70bbba0446cdf747f18e9d3a7d2513abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restolia/framework/zipball/67553a79e3ea6f2070eb4bfaa1b44366257b1b93",
-                "reference": "67553a79e3ea6f2070eb4bfaa1b44366257b1b93",
+                "url": "https://api.github.com/repos/restolia/framework/zipball/682b5dc70bbba0446cdf747f18e9d3a7d2513abb",
+                "reference": "682b5dc70bbba0446cdf747f18e9d3a7d2513abb",
                 "shasum": ""
             },
             "require": {
@@ -669,9 +669,9 @@
             "description": "Welcome to Restolia, a PHP Framework for building fast and powerful APIs.",
             "support": {
                 "issues": "https://github.com/restolia/framework/issues",
-                "source": "https://github.com/restolia/framework/tree/2.1.0"
+                "source": "https://github.com/restolia/framework/tree/2.1.1"
             },
-            "time": "2022-05-13T17:21:54+00:00"
+            "time": "2022-05-13T19:02:48+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2088,21 +2088,21 @@
         },
         {
             "name": "restolia/http-testing",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/restolia/http-testing.git",
-                "reference": "c650e7cca328957d045f6d978fc5798fd9be5282"
+                "reference": "4f028f34367cab5eaaf65ece1ae6475ac675033d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/restolia/http-testing/zipball/c650e7cca328957d045f6d978fc5798fd9be5282",
-                "reference": "c650e7cca328957d045f6d978fc5798fd9be5282",
+                "url": "https://api.github.com/repos/restolia/http-testing/zipball/4f028f34367cab5eaaf65ece1ae6475ac675033d",
+                "reference": "4f028f34367cab5eaaf65ece1ae6475ac675033d",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.1",
-                "restolia/framework": "2.1.0"
+                "restolia/framework": "^2.1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -2126,9 +2126,9 @@
             "description": "A HTTP testing package for Restolia applications.",
             "support": {
                 "issues": "https://github.com/restolia/http-testing/issues",
-                "source": "https://github.com/restolia/http-testing/tree/0.0.1"
+                "source": "https://github.com/restolia/http-testing/tree/0.0.2"
             },
-            "time": "2022-05-13T17:26:02+00:00"
+            "time": "2022-05-13T19:11:32+00:00"
         },
         {
             "name": "sebastian/cli-parser",
