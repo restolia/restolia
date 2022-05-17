@@ -9,4 +9,6 @@ define('APP_START', microtime(true));
 
 include 'vendor/autoload.php';
 
-(new Kernel())->boot(App::class)->resolve();
+$kernel = (new Kernel())->boot(App::class);
+
+exit($kernel->handle());
